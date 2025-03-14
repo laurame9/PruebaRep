@@ -84,4 +84,10 @@ public class Date {
       return false;
     }
   }
+
+  public String getDateInfo() {
+    return this.day + "/" + this.month + "/" + this.year;
+  }
+  private String dateFormat = "DD/MM/YYYY";
+
 }
