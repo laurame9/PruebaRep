@@ -84,7 +84,16 @@ public class Date {
       return false;
     }
   }
+<<<<<<< HEAD
 public void methodAddedByOwner(){
     System.out.println("Method added by the owner");
 }
+=======
+
+  public String getDateInfo() {
+    return this.day + "/" + this.month + "/" + this.year;
+  }
+  private String dateFormat = "DD/MM/YYYY";
+
+>>>>>>> 296c2cedc396e196e75f36534faa356661c22a25
 }
